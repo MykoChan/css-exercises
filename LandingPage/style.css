@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header,
+.main-container,
+.random-info,
+.CTA {
+    padding: 0px 150px 25px 150px;
+}
+
+.CTA {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: White;
+    flex-direction: row;
+    margin: 36px 150px;
+    padding: 36px;
+    justify-content: space-between;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: row;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+.header,
+.footer,
+.main-container {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+.main-container {
+    align-items: center;
+}
+
+.main-title {
+    font-size: 48px;
+}
+
+.main-subtext {
+    font-size: 14px;
+}
+
+.img-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    font-size: 10px;
+}
+
+.random-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#random-text {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-cards {
+    display: flex;
+    gap: 25px;
+}
+
+.info-card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded-container {
+    border-radius: 25px;
+    border: 3px solid #2e26c4;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.subtext {
+    text-align: center;
+    width: 130px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 25px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.signature {
+    text-align: right;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.CTA-header-text {
+    font-weight: bold;
+}
+
+.CTA-subtext {
+    font-weight: 100;
+}
+
+#sign-up-button-1,
+#sign-up-button-2 {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-up-button-1 {
+    border: 2px solid #3882F6;
+}
+
+#sign-up-button-2 {
+    border: 2px solid white;
+}
